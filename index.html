@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/4cd7baf8bb.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/it.js" charset="utf-8"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="container-header">
+                <div class="head">
+                    <h2>Luca Lincetto</h2>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container-photo">
+                <div class="top">
+                    <div class="top-sx">
+                        <h1><span>&lsaquo;h1&rsaquo;</span> <strong>Hello</strong> <span>&lsaquo;/h1&rsaquo;</span></h1>
+                        <div class="click">
+                            <h2><span>&lsaquo;h1&rsaquo;</span> Benvenuto nel mio portfolio <span>&lsaquo;/h1&rsaquo;</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-hello">
+                <div class="hello">
+                    <div class="ok">
+                        <h2><span>&lsaquo;h2&rsaquo;</span> Mi chiamo Luca <span>&lsaquo;/h2&rsaquo;</span></h2>
+                        <h4>Sono uno Junior Full Stack Web Developer, appassionato di teconlogia, nonchè un instancabile programmatore pronto a mettersi sempre alla prova con nuovi linguaggi di programmazione.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="container-cards">
+                <div class="center">
+                    <div class="card">
+                        <i class="fas fa-code"></i>
+                        <h4><strong>WEB DEVELOPMENT</strong></h4>
+                        <p>La passione per la tecnologia mi ha portato a formarmi su vari linguaggi di codice e programmazione; competenze consolidate grazie al corso di Full Stack Web Developer di Boolean Careers.
+                        Amo passare il tempo a programmare, testare codici, e se ne avanza, studiarne altri.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-running"></i>
+                        <h4><strong>SPORT</strong></h4>
+                        <p>Da appassionato di sport, ed healthy style, sono convinto che entrambi stiano alla base per uno stile di vita migliore, sia fisico che mentale.
+                        Tra un codice e l'altro, non può mancare di certo un po di buon sano movimento.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-plane-departure"></i>
+                        <h4><strong>TRAVEL</strong></h4>
+                        <p>Girare il mondo alla scoperta delle diverse culture, stili di vita diversi, delle nuove esperienze culinarie.
+                        Appena posso, è una delle cose che non farò mai mancare alla mia "to do list". </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-container">
+                <h1>.container {</h1>
+            </div>
+            <div class="container-my-site">
+                <div class="my-site">
+                    <h2>Visita il mio blog Running post </h2>
+                    <small><span>&#60; small &#62;</span>  By Laravel Mix e Handlebars <span>&#60; /small &#62;</span></small>
+                    <div class="my-site-image">
+                        <a href="#" target="_blank"> <img src="img/blog.png" alt="Running blog"> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-my-work">
+                <div class="my-work-title">
+                    <h2>Alcune mie repliche di Netflix e Whatsapp</h2>
+                    <small><span>&#60; /small &#62;</span> With HTML, CSS e JavaScritp <span>&#60; /small &#62;</span></small>
+                </div>
+                <div class="my-work">
+                    <div class="look-this">
+                        <img class="one" src="img/heroflix1.png" alt="boolflix">
+                        <a href="https://github.com/Ljnce/ajax-ex-boolflix" target="_blank"> <img class="two" src="img/heroflix2.png" alt="boolflix"> </a>
+                        <img class="three" src="img/ironzapp1.png" alt="boolzapp">
+                        <a href="https://github.com/Ljnce/js-html-css-boolzap" target="_blank"> <img class="four" src="img/ironzapp2.png" alt="boolzapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-close">
+                <h1> } </h1>
+            </div>
+            <div class="container-bottom">
+                <div class="skills">
+                    <h1>Skills</h1>
+                </div>
+                <div class="bottom">
+                    <div class="container-grafico">
+                        <canvas id="grafico"></canvas>
+                    </div>
+                    <!-- <div class="container-grafico">
+                        <canvas id="grafico2"></canvas>
+                    </div>
+                    <div class="container-grafico">
+                        <canvas id="grafico3"></canvas>
+                    </div>
+                    <div class="container-grafico">
+                        <canvas id="grafico4"></canvas>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-footer">
+                <div class="foot">
+                    <div class="foot-sx">
+
+                    </div>
+                    <div class="foot-dx">
+                        <i class="fab fa-facebook"> <a href="#"> </a> </i>
+                        <i class="fab fa-instagram"> <a href="#"> </a></i>
+                        <i class="fab fa-linkedin-in"> <a href="https://www.linkedin.com/in/lucalincetto/"> </a></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/main.js" charset="utf-8"></script>
+    </body>
+</html>
